@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+  box-shadow: 0px 4px 3px -4px #000;
+}
+
+#menu a {
+  background-color: #555;
+  color: #fff;
+  padding: 12px 35px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+#menu a:hover {
+  background-color: #999;
+}
+
+/* ===================== Layout 01 ===================== */
+.layout01 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header, .footer {
+  background-color: #aaa;
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  gap: 10px;
+}
+
+.article {
+  flex: 1;
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===================== Layout 02 ===================== */
+.layout02 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.middle {
+  display: flex;
+  gap: 10px;
+}
+
+.menu {
+  width: 20%;
+  background-color: #bbb;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  width: 60%;
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.ads {
+  width: 20%;
+  background-color: #bbb;
+  padding: 20px;
+  text-align: center;
+}
+
+.layout02 .header, .layout02 .footer {
+  background-color: #999;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ===================== Layout 03 ===================== */
+.layout03 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #777;
+  padding: 15px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card {
+  background-color: #ccc;
+  padding: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #777;
+  color: white;
+  padding: 10px;
+}
